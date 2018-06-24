@@ -16,13 +16,17 @@ namespace QuanLySanPham
         {
             InitializeComponent();
         }
-        
-        private void edt_username_TextChanged(object sender, EventArgs e)
-        {
-            if (edt_username.Text == "")
-            {
 
+        private void btn_login_Click(object sender, EventArgs e)
+        {
+            string _user_name = edt_username.Text;
+            string _pass_word = edt_password.Text;
+            if (_user_name == ""|| _pass_word==""||_user_name.Length>30||_pass_word.Length>15)
+            {
+                DialogResult result = MessageBox.Show("User name or password not found !","Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                return;
             }
+
         }
     }
 }
