@@ -9,6 +9,10 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Net;
 using System.Net.Http;
+using System.Xml;
+using System.IO;
+using System.Xml.Linq;
+
 namespace QuanLySanPham
 {
     public partial class Login : Form
@@ -27,17 +31,14 @@ namespace QuanLySanPham
                 DialogResult result = MessageBox.Show("User name or password not found !","Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
                 return;
             }
-            string base64request = Convert.ToBase64String(ASCIIEncoding.ASCII.GetBytes(edt_username.Text + ":" + edt_password.Text));
-            Uri uri = new Uri(RequestAPI.APILink._Adress + RequestAPI.APILink._Login);
-            WebRequest request = WebRequest.Create(RequestAPI.APILink._Adress + RequestAPI.APILink._Login);
-            request.Method = "POST";
-            request.ContentType = "application/x-www-form-urlencoded";
-            Dictionary<String, String> pagram = new Dictionary<string, string>();
-            pagram.Add("username", edt_username.Text);
-            pagram.Add("password", edt_password.Text);
-            request.Headers.Add("Authorization", "Basic " + base64request);
-            WebResponse response = request.GetResponse();
-            DialogResult dialogResult = MessageBox.Show(response.ToString());
+            string postData = "username=" + edt_username.Text + "&password=" + edt_password.Text;
+            RequestAPI.RequestApiControllers._check_request(postData, RequestAPI.APILink._Adress + RequestAPI.APILink._Login,"Đăng nhập thành công","Tài khoản hoặc mật khẩu không chính xác");
+           
         }
+        private void btn_exit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
     }
 }
