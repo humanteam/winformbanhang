@@ -112,5 +112,8 @@
   <ItemGroup>
     <None Include="Resources\Groups-Meeting-Light-icon.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eraser-minus-icon.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

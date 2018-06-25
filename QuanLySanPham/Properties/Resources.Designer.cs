@@ -103,6 +103,16 @@ namespace QuanLySanPham.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap eraser_minus_icon {
+            get {
+                object obj = ResourceManager.GetObject("eraser-minus-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Groups_Meeting_Light_icon {
             get {
                 object obj = ResourceManager.GetObject("Groups-Meeting-Light-icon", resourceCulture);
