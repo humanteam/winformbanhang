@@ -100,5 +100,17 @@
   <ItemGroup>
     <None Include="Resources\Actions-window-close-icon.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pencil-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Actions-edit-delete-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Groups-Meeting-Light-icon.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

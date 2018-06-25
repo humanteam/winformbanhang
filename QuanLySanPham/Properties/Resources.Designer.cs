@@ -73,9 +73,49 @@ namespace QuanLySanPham.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Actions_edit_delete_icon {
+            get {
+                object obj = ResourceManager.GetObject("Actions-edit-delete-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Actions_window_close_icon {
             get {
                 object obj = ResourceManager.GetObject("Actions-window-close-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap add_icon {
+            get {
+                object obj = ResourceManager.GetObject("add-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Groups_Meeting_Light_icon {
+            get {
+                object obj = ResourceManager.GetObject("Groups-Meeting-Light-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pencil_icon {
+            get {
+                object obj = ResourceManager.GetObject("pencil-icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
