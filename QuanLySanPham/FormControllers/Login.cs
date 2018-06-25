@@ -20,6 +20,23 @@ namespace QuanLySanPham
         public Login()
         {
             InitializeComponent();
+            if (!RequestAPI.RequestApiControllers.CheckForInternetConnection())
+            {
+                btn_login.Enabled = false;
+                DialogResult result = MessageBox.Show("Please check connect internet !","Error", MessageBoxButtons.RetryCancel,MessageBoxIcon.Stop);
+                if (result == DialogResult.Retry)
+                {
+                    new Login();
+                }
+                else if (result == DialogResult.Cancel)
+                {
+                    this.Close();
+                }
+            }
+            else
+            {
+                btn_login.Enabled = true;
+            }
         }
 
         private void btn_login_Click(object sender, EventArgs e)
@@ -32,8 +49,18 @@ namespace QuanLySanPham
                 return;
             }
             string postData = "username=" + edt_username.Text + "&password=" + edt_password.Text;
-            RequestAPI.RequestApiControllers._check_request(postData, RequestAPI.APILink._Adress + RequestAPI.APILink._Login,"Đăng nhập thành công","Tài khoản hoặc mật khẩu không chính xác");
-           
+           bool _isCheck= RequestAPI.RequestApiControllers._check_request(postData, RequestAPI.APILink._Adress + RequestAPI.APILink._Login);
+            if (_isCheck)
+            {
+                FormControllers.ProductManager manager = new FormControllers.ProductManager();
+                manager.Show();
+                this.Visible = false;
+                this.Hide();
+            }
+            else
+            {
+                DialogResult result = MessageBox.Show("Đăng nhập thất bại");
+            }
         }
         private void btn_exit_Click(object sender, EventArgs e)
         {
