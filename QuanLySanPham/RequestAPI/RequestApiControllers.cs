@@ -11,7 +11,7 @@ namespace QuanLySanPham.RequestAPI
 {
     class RequestApiControllers
     {
-        public static void _check_request(string body_request,string url,string success_title,string error_title)
+        public static bool _check_request(string body_request,string url)
         {
             byte[] byteArray = Encoding.UTF8.GetBytes(body_request);
             Uri uri = new Uri(url);
@@ -32,12 +32,28 @@ namespace QuanLySanPham.RequestAPI
                 string strResponse = reader.ReadToEnd();
                 if (strResponse.IndexOf("true")>0)
                 {
-                    DialogResult result = MessageBox.Show(success_title);
+                    return true;
                 }
                 else if (strResponse.IndexOf("false") > 0)
                 {
-                    DialogResult result = MessageBox.Show(error_title);
+                    return false;
                 }
+            }
+            return false;
+        }
+        public static bool CheckForInternetConnection()
+        {
+            try
+            {
+                using (var client = new WebClient())
+                using (client.OpenRead("http://clients3.google.com/generate_204"))
+                {
+                    return true;
+                }
+            }
+            catch
+            {
+                return false;
             }
         }
     }

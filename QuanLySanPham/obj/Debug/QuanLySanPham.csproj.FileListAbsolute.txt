@@ -8,3 +8,4 @@ C:\Users\ThanhCong\Desktop\Project\QuanLySanPham\QuanLySanPham\obj\Debug\QuanLyS
 C:\Users\ThanhCong\Desktop\Project\QuanLySanPham\QuanLySanPham\obj\Debug\QuanLySanPham.csproj.CoreCompileInputs.cache
 C:\Users\ThanhCong\Desktop\Project\QuanLySanPham\QuanLySanPham\obj\Debug\QuanLySanPham.exe
 C:\Users\ThanhCong\Desktop\Project\QuanLySanPham\QuanLySanPham\obj\Debug\QuanLySanPham.pdb
+C:\Users\ThanhCong\Desktop\Project\QuanLySanPham\QuanLySanPham\obj\Debug\QuanLySanPham.FormControllers.ProductManager.resources
