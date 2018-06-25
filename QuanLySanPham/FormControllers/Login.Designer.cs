@@ -64,7 +64,6 @@
             resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
-         
             // 
             // label2
             // 
@@ -84,7 +83,7 @@
             this.chk_remeber_login.ForeColor = System.Drawing.Color.Black;
             this.chk_remeber_login.Name = "chk_remeber_login";
             this.chk_remeber_login.UseVisualStyleBackColor = true;
-          
+            this.chk_remeber_login.CheckedChanged += new System.EventHandler(this.chk_remeber_login_CheckedChanged);
             // 
             // btn_exit
             // 
@@ -109,13 +108,11 @@
             resources.ApplyResources(this.label3, "label3");
             this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Name = "label3";
-           
             // 
             // edt_password
             // 
             resources.ApplyResources(this.edt_password, "edt_password");
             this.edt_password.Name = "edt_password";
-         
             // 
             // edt_username
             // 
