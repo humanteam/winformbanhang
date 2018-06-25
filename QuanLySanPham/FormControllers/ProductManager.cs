@@ -16,5 +16,20 @@ namespace QuanLySanPham.FormControllers
         {
             InitializeComponent();
         }
+
+        private void ProductManager_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ProductManager_FormClosed(object sender, FormClosedEventArgs e)
+        {
+           
+        }
+
+        private void ProductManager_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            
+        }
     }
 }
