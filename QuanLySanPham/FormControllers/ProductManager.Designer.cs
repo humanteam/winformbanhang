@@ -129,35 +129,32 @@
             // 
             this.clTenSP.Text = "Tên Sản Phẩm";
             this.clTenSP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.clTenSP.Width = 120;
             // 
             // clHinhAnh
             // 
             this.clHinhAnh.Text = "Link Hình Ảnh";
             this.clHinhAnh.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.clHinhAnh.Width = 120;
             // 
             // clChiTiet
             // 
             this.clChiTiet.Text = "Chi Tiết Sản Phẩm";
             this.clChiTiet.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.clChiTiet.Width = 120;
             // 
             // clGia
             // 
             this.clGia.Text = "Giá";
+            this.clGia.Width = 30;
             // 
             // clTenTheLoai
             // 
             this.clTenTheLoai.Text = "Tên Thể Loại";
             this.clTenTheLoai.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.clTenTheLoai.Width = 120;
             // 
             // clTenNguoiDang
             // 
             this.clTenNguoiDang.Text = "Tên Người Đăng";
             this.clTenNguoiDang.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.clTenNguoiDang.Width = 120;
+            this.clTenNguoiDang.Width = 30;
             // 
             // btn_thoat
             // 
