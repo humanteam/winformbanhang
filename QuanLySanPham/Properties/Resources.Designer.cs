@@ -19,7 +19,7 @@ namespace QuanLySanPham.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -63,6 +63,36 @@ namespace QuanLySanPham.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _36177139_2100754413540664_5354926853414977536_n {
+            get {
+                object obj = ResourceManager.GetObject("36177139_2100754413540664_5354926853414977536_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _36231264_2100757323540373_7818565397715615744_n {
+            get {
+                object obj = ResourceManager.GetObject("36231264_2100757323540373_7818565397715615744_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _36252562_2100756093540496_7804615601636245504_n {
+            get {
+                object obj = ResourceManager.GetObject("36252562_2100756093540496_7804615601636245504_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Accept_icon {
             get {
                 object obj = ResourceManager.GetObject("Accept-icon", resourceCulture);
@@ -96,6 +126,16 @@ namespace QuanLySanPham.Properties {
         internal static System.Drawing.Bitmap add_icon {
             get {
                 object obj = ResourceManager.GetObject("add-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap add_user_group_woman_man {
+            get {
+                object obj = ResourceManager.GetObject("add-user-group-woman-man", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -35,12 +35,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.listItem = new System.Windows.Forms.ListView();
-            this.btn_thoat = new System.Windows.Forms.Button();
-            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
-            this.btn_themuser = new System.Windows.Forms.Button();
-            this.btn_xoasp = new System.Windows.Forms.Button();
-            this.btn_suasp = new System.Windows.Forms.Button();
-            this.btn_themsp = new System.Windows.Forms.Button();
             this.clMaSP = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.clTenSP = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.clHinhAnh = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -48,6 +42,12 @@
             this.clGia = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.clTenTheLoai = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.clTenNguoiDang = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.btn_thoat = new System.Windows.Forms.Button();
+            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
+            this.btn_themuser = new System.Windows.Forms.Button();
+            this.btn_xoasp = new System.Windows.Forms.Button();
+            this.btn_suasp = new System.Windows.Forms.Button();
+            this.btn_themsp = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -113,6 +113,42 @@
             this.listItem.View = System.Windows.Forms.View.List;
             this.listItem.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
             // 
+            // clMaSP
+            // 
+            this.clMaSP.Text = "Mã Sản Phẩm";
+            this.clMaSP.Width = 20;
+            // 
+            // clTenSP
+            // 
+            this.clTenSP.Text = "Tên Sản Phẩm";
+            this.clTenSP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // clHinhAnh
+            // 
+            this.clHinhAnh.Text = "Link Hình Ảnh";
+            this.clHinhAnh.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // clChiTiet
+            // 
+            this.clChiTiet.Text = "Chi Tiết Sản Phẩm";
+            this.clChiTiet.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // clGia
+            // 
+            this.clGia.Text = "Giá";
+            this.clGia.Width = 30;
+            // 
+            // clTenTheLoai
+            // 
+            this.clTenTheLoai.Text = "Tên Thể Loại";
+            this.clTenTheLoai.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // clTenNguoiDang
+            // 
+            this.clTenNguoiDang.Text = "Tên Người Đăng";
+            this.clTenNguoiDang.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.clTenNguoiDang.Width = 30;
+            // 
             // btn_thoat
             // 
             this.btn_thoat.Image = global::QuanLySanPham.Properties.Resources.Actions_edit_delete_icon;
@@ -170,42 +206,7 @@
             this.btn_themsp.TabIndex = 0;
             this.btn_themsp.Text = "Thêm sản phẩm";
             this.btn_themsp.UseVisualStyleBackColor = true;
-            // 
-            // clMaSP
-            // 
-            this.clMaSP.Text = "Mã Sản Phẩm";
-            this.clMaSP.Width = 20;
-            // 
-            // clTenSP
-            // 
-            this.clTenSP.Text = "Tên Sản Phẩm";
-            this.clTenSP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // clHinhAnh
-            // 
-            this.clHinhAnh.Text = "Link Hình Ảnh";
-            this.clHinhAnh.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // clChiTiet
-            // 
-            this.clChiTiet.Text = "Chi Tiết Sản Phẩm";
-            this.clChiTiet.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // clGia
-            // 
-            this.clGia.Text = "Giá";
-            this.clGia.Width = 30;
-            // 
-            // clTenTheLoai
-            // 
-            this.clTenTheLoai.Text = "Tên Thể Loại";
-            this.clTenTheLoai.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // clTenNguoiDang
-            // 
-            this.clTenNguoiDang.Text = "Tên Người Đăng";
-            this.clTenNguoiDang.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.clTenNguoiDang.Width = 30;
+
             // 
             // ProductManager
             // 

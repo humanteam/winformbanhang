@@ -12,3 +12,16 @@ C:\Users\ThanhCong\Desktop\Project\QuanLySanPham\QuanLySanPham\obj\Debug\QuanLyS
 C:\Users\ThanhCong\Desktop\Project\QuanLySanPham\QuanLySanPham\bin\Debug\Newtonsoft.Json.dll
 C:\Users\ThanhCong\Desktop\Project\QuanLySanPham\QuanLySanPham\bin\Debug\Newtonsoft.Json.xml
 C:\Users\ThanhCong\Desktop\Project\QuanLySanPham\QuanLySanPham\obj\Debug\QuanLySanPham.csproj.CopyComplete
+C:\Users\Chu Tú\Desktop\QuanLySanPhm\winformbanhang\QuanLySanPham\bin\Debug\QuanLySanPham.exe.config
+C:\Users\Chu Tú\Desktop\QuanLySanPhm\winformbanhang\QuanLySanPham\obj\Debug\QuanLySanPham.exe
+C:\Users\Chu Tú\Desktop\QuanLySanPhm\winformbanhang\QuanLySanPham\obj\Debug\QuanLySanPham.pdb
+C:\Users\Chu Tú\Desktop\QuanLySanPhm\winformbanhang\QuanLySanPham\bin\Debug\QuanLySanPham.exe
+C:\Users\Chu Tú\Desktop\QuanLySanPhm\winformbanhang\QuanLySanPham\bin\Debug\QuanLySanPham.pdb
+C:\Users\Chu Tú\Desktop\QuanLySanPhm\winformbanhang\QuanLySanPham\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Chu Tú\Desktop\QuanLySanPhm\winformbanhang\QuanLySanPham\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Chu Tú\Desktop\QuanLySanPhm\winformbanhang\QuanLySanPham\obj\Debug\QuanLySanPham.csprojResolveAssemblyReference.cache
+C:\Users\Chu Tú\Desktop\QuanLySanPhm\winformbanhang\QuanLySanPham\obj\Debug\QuanLySanPham.Login.resources
+C:\Users\Chu Tú\Desktop\QuanLySanPhm\winformbanhang\QuanLySanPham\obj\Debug\QuanLySanPham.FormControllers.ProductManager.resources
+C:\Users\Chu Tú\Desktop\QuanLySanPhm\winformbanhang\QuanLySanPham\obj\Debug\QuanLySanPham.Properties.Resources.resources
+C:\Users\Chu Tú\Desktop\QuanLySanPhm\winformbanhang\QuanLySanPham\obj\Debug\QuanLySanPham.csproj.GenerateResource.Cache
+C:\Users\Chu Tú\Desktop\QuanLySanPhm\winformbanhang\QuanLySanPham\obj\Debug\QuanLySanPham.FormControllers.Themsanpham.resources
