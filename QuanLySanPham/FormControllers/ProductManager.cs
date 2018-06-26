@@ -15,6 +15,14 @@ namespace QuanLySanPham.FormControllers
         public ProductManager()
         {
             InitializeComponent();
+            RequestAPI.RequestApiControllers.reponse_json(RequestAPI.APILink._Adress + RequestAPI.APILink._SanPham);
+            listItem.View = View.Details;
+            foreach(Module.SanPham sp in Module.SanPhams.listsp)
+            {
+                listItem.Items.Add(new ListViewItem(new string[] { sp.MaSP, sp.TenSP, sp.AnhSP, sp.ChiTietSP, sp.GiaSP, "  ", "   " }));
+                listItem.GridLines = true;
+            }
+            listItem.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None;
         }
 
         private void btn_themuser_Click(object sender, EventArgs e)
@@ -38,6 +46,11 @@ namespace QuanLySanPham.FormControllers
         }
 
         private void btn_xoasp_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

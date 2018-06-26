@@ -553,6 +553,9 @@
   <data name="edt_password.Location" type="System.Drawing.Point, System.Drawing">
     <value>211, 81</value>
   </data>
+  <data name="edt_password.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value>*</value>
+  </data>
   <data name="edt_password.Size" type="System.Drawing.Size, System.Drawing">
     <value>131, 20</value>
   </data>

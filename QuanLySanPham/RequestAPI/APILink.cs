@@ -10,5 +10,6 @@ namespace QuanLySanPham.RequestAPI
     {
         public static string _Adress = "http://192.168.0.102";
         public static string _Login = "/WebServices/AuthenCation.asmx/authencation";
+        public static string _SanPham = "/api/sanpham";
     }
 }

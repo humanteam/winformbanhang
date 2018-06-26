@@ -67,5 +67,16 @@ namespace QuanLySanPham
             this.Close();
         }
 
+        private void chk_remeber_login_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chk_remeber_login.Checked)
+            {
+                edt_password.PasswordChar = char.Parse("\0");
+            }
+            else
+            {
+                edt_password.PasswordChar = char.Parse("*");
+            }
+        }
     }
 }
