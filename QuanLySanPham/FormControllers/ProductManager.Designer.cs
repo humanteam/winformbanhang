@@ -57,9 +57,9 @@
             this.groupBox1.Controls.Add(this.txt_tenuser);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(621, 15);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(299, 63);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
@@ -90,9 +90,9 @@
             // 
             this.groupBox2.Controls.Add(this.listItem);
             this.groupBox2.Location = new System.Drawing.Point(3, 106);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(917, 369);
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
@@ -112,7 +112,7 @@
             this.listItem.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
             listViewItem1});
             this.listItem.Location = new System.Drawing.Point(3, 23);
-            this.listItem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listItem.Margin = new System.Windows.Forms.Padding(4);
             this.listItem.Name = "listItem";
             this.listItem.Size = new System.Drawing.Size(913, 345);
             this.listItem.TabIndex = 4;
@@ -123,45 +123,47 @@
             // clMaSP
             // 
             this.clMaSP.Text = "Mã Sản Phẩm";
-            this.clMaSP.Width = 20;
+            this.clMaSP.Width = 30;
             // 
             // clTenSP
             // 
             this.clTenSP.Text = "Tên Sản Phẩm";
             this.clTenSP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.clTenSP.Width = 120;
             // 
             // clHinhAnh
             // 
             this.clHinhAnh.Text = "Link Hình Ảnh";
             this.clHinhAnh.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.clHinhAnh.Width = 120;
             // 
             // clChiTiet
             // 
             this.clChiTiet.Text = "Chi Tiết Sản Phẩm";
             this.clChiTiet.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.clChiTiet.Width = 120;
             // 
             // clGia
             // 
             this.clGia.Text = "Giá";
-            this.clGia.Width = 30;
             // 
             // clTenTheLoai
             // 
             this.clTenTheLoai.Text = "Tên Thể Loại";
             this.clTenTheLoai.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.clTenTheLoai.Width = 120;
             // 
             // clTenNguoiDang
             // 
             this.clTenNguoiDang.Text = "Tên Người Đăng";
             this.clTenNguoiDang.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.clTenNguoiDang.Width = 30;
             // 
             // btn_thoat
             // 
             this.btn_thoat.Image = global::QuanLySanPham.Properties.Resources.Actions_edit_delete_icon;
             this.btn_thoat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_thoat.Location = new System.Drawing.Point(491, 70);
-            this.btn_thoat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_thoat.Margin = new System.Windows.Forms.Padding(4);
             this.btn_thoat.Name = "btn_thoat";
             this.btn_thoat.Size = new System.Drawing.Size(123, 28);
             this.btn_thoat.TabIndex = 7;
@@ -174,7 +176,7 @@
             this.btn_themuser.Image = global::QuanLySanPham.Properties.Resources.Groups_Meeting_Light_icon;
             this.btn_themuser.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_themuser.Location = new System.Drawing.Point(313, 70);
-            this.btn_themuser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_themuser.Margin = new System.Windows.Forms.Padding(4);
             this.btn_themuser.Name = "btn_themuser";
             this.btn_themuser.Size = new System.Drawing.Size(169, 28);
             this.btn_themuser.TabIndex = 6;
@@ -187,7 +189,7 @@
             this.btn_xoasp.Image = global::QuanLySanPham.Properties.Resources.eraser_minus_icon;
             this.btn_xoasp.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_xoasp.Location = new System.Drawing.Point(313, 34);
-            this.btn_xoasp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_xoasp.Margin = new System.Windows.Forms.Padding(4);
             this.btn_xoasp.Name = "btn_xoasp";
             this.btn_xoasp.Size = new System.Drawing.Size(141, 28);
             this.btn_xoasp.TabIndex = 2;
@@ -200,7 +202,7 @@
             this.btn_suasp.Image = global::QuanLySanPham.Properties.Resources.pencil_icon;
             this.btn_suasp.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_suasp.Location = new System.Drawing.Point(163, 34);
-            this.btn_suasp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_suasp.Margin = new System.Windows.Forms.Padding(4);
             this.btn_suasp.Name = "btn_suasp";
             this.btn_suasp.Size = new System.Drawing.Size(141, 28);
             this.btn_suasp.TabIndex = 1;
@@ -212,7 +214,7 @@
             this.btn_themsp.Image = global::QuanLySanPham.Properties.Resources.add_icon;
             this.btn_themsp.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_themsp.Location = new System.Drawing.Point(5, 34);
-            this.btn_themsp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_themsp.Margin = new System.Windows.Forms.Padding(4);
             this.btn_themsp.Name = "btn_themsp";
             this.btn_themsp.Size = new System.Drawing.Size(149, 28);
             this.btn_themsp.TabIndex = 0;
@@ -231,7 +233,7 @@
             this.Controls.Add(this.btn_xoasp);
             this.Controls.Add(this.btn_suasp);
             this.Controls.Add(this.btn_themsp);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ProductManager";
             this.Text = "ProductManager";
             this.Load += new System.EventHandler(this.ProductManager_Load);
