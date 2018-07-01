@@ -116,38 +116,40 @@
             // clMaSP
             // 
             this.clMaSP.Text = "Mã Sản Phẩm";
-            this.clMaSP.Width = 20;
+            this.clMaSP.Width = 30;
             // 
             // clTenSP
             // 
             this.clTenSP.Text = "Tên Sản Phẩm";
             this.clTenSP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.clTenSP.Width = 120;
             // 
             // clHinhAnh
             // 
             this.clHinhAnh.Text = "Link Hình Ảnh";
             this.clHinhAnh.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.clHinhAnh.Width = 120;
             // 
             // clChiTiet
             // 
             this.clChiTiet.Text = "Chi Tiết Sản Phẩm";
             this.clChiTiet.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.clChiTiet.Width = 120;
             // 
             // clGia
             // 
             this.clGia.Text = "Giá";
-            this.clGia.Width = 30;
             // 
             // clTenTheLoai
             // 
             this.clTenTheLoai.Text = "Tên Thể Loại";
             this.clTenTheLoai.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.clTenTheLoai.Width = 120;
             // 
             // clTenNguoiDang
             // 
             this.clTenNguoiDang.Text = "Tên Người Đăng";
             this.clTenNguoiDang.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.clTenNguoiDang.Width = 30;
             // 
             // btn_thoat
             // 
@@ -206,7 +208,6 @@
             this.btn_themsp.TabIndex = 0;
             this.btn_themsp.Text = "Thêm sản phẩm";
             this.btn_themsp.UseVisualStyleBackColor = true;
-
             // 
             // ProductManager
             // 
