@@ -76,5 +76,15 @@ namespace QuanLySanPham.FormControllers
         {
 
         }
+
+        private void huybo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void xacnhan_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
