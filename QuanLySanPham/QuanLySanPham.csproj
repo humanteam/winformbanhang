@@ -79,6 +79,8 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormControllers\ProductManager.resx">
       <DependentUpon>ProductManager.cs</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ProductManager1.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="FormControllers\Themsanpham.resx">
       <DependentUpon>Themsanpham.cs</DependentUpon>
