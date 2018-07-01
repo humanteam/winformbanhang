@@ -1,4 +1,4 @@
- C:\Users\ThanhCong\Desktop\Project\QuanLySanPham\QuanLySanPham\bin\Debug\QuanLySanPham.exe.config
+C:\Users\ThanhCong\Desktop\Project\QuanLySanPham\QuanLySanPham\bin\Debug\QuanLySanPham.exe.config
 C:\Users\ThanhCong\Desktop\Project\QuanLySanPham\QuanLySanPham\bin\Debug\QuanLySanPham.exe
 C:\Users\ThanhCong\Desktop\Project\QuanLySanPham\QuanLySanPham\bin\Debug\QuanLySanPham.pdb
 C:\Users\ThanhCong\Desktop\Project\QuanLySanPham\QuanLySanPham\obj\Debug\QuanLySanPham.csprojAssemblyReference.cache
@@ -25,3 +25,18 @@ C:\Users\Chu Tú\Desktop\QuanLySanPhm\winformbanhang\QuanLySanPham\obj\Debug\Qu
 C:\Users\Chu Tú\Desktop\QuanLySanPhm\winformbanhang\QuanLySanPham\obj\Debug\QuanLySanPham.Properties.Resources.resources
 C:\Users\Chu Tú\Desktop\QuanLySanPhm\winformbanhang\QuanLySanPham\obj\Debug\QuanLySanPham.csproj.GenerateResource.Cache
 C:\Users\Chu Tú\Desktop\QuanLySanPhm\winformbanhang\QuanLySanPham\obj\Debug\QuanLySanPham.FormControllers.Themsanpham.resources
+E:\winformbanhang\QuanLySanPham\obj\Debug\QuanLySanPham.csprojAssemblyReference.cache
+E:\winformbanhang\QuanLySanPham\obj\Debug\QuanLySanPham.Login.resources
+E:\winformbanhang\QuanLySanPham\obj\Debug\QuanLySanPham.FormControllers.ProductManager.resources
+E:\winformbanhang\QuanLySanPham\obj\Debug\QuanLySanPham.FormControllers.Themsanpham.resources
+E:\winformbanhang\QuanLySanPham\obj\Debug\QuanLySanPham.Properties.Resources.resources
+E:\winformbanhang\QuanLySanPham\obj\Debug\QuanLySanPham.csproj.GenerateResource.cache
+E:\winformbanhang\QuanLySanPham\obj\Debug\QuanLySanPham.csproj.CoreCompileInputs.cache
+E:\winformbanhang\QuanLySanPham\obj\Debug\QuanLySanPham.exe
+E:\winformbanhang\QuanLySanPham\obj\Debug\QuanLySanPham.pdb
+E:\winformbanhang\QuanLySanPham\bin\Debug\QuanLySanPham.exe.config
+E:\winformbanhang\QuanLySanPham\bin\Debug\QuanLySanPham.exe
+E:\winformbanhang\QuanLySanPham\bin\Debug\QuanLySanPham.pdb
+E:\winformbanhang\QuanLySanPham\bin\Debug\Newtonsoft.Json.dll
+E:\winformbanhang\QuanLySanPham\bin\Debug\Newtonsoft.Json.xml
+E:\winformbanhang\QuanLySanPham\obj\Debug\QuanLySanPham.csproj.CopyComplete
