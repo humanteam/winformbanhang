@@ -60,11 +60,29 @@
     <Compile Include="FormControllers\ProductManager.Designer.cs">
       <DependentUpon>ProductManager.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormControllers\Sua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormControllers\Sua.Designer.cs">
+      <DependentUpon>Sua.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormControllers\Themnguoidung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormControllers\Themnguoidung.Designer.cs">
+      <DependentUpon>Themnguoidung.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormControllers\Themsanpham.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormControllers\Themsanpham.Designer.cs">
       <DependentUpon>Themsanpham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormControllers\Xoasanpham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormControllers\Xoasanpham.Designer.cs">
+      <DependentUpon>Xoasanpham.cs</DependentUpon>
     </Compile>
     <Compile Include="Module\Account.cs" />
     <Compile Include="Module\SanPham.cs" />
@@ -80,8 +98,17 @@
     <EmbeddedResource Include="FormControllers\ProductManager.resx">
       <DependentUpon>ProductManager.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormControllers\Sua.resx">
+      <DependentUpon>Sua.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormControllers\Themnguoidung.resx">
+      <DependentUpon>Themnguoidung.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormControllers\Themsanpham.resx">
       <DependentUpon>Themsanpham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormControllers\Xoasanpham.resx">
+      <DependentUpon>Xoasanpham.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -130,6 +157,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\eraser-minus-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-user-group-woman-man.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\36177139_2100754413540664_5354926853414977536_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\36252562_2100756093540496_7804615601636245504_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\36231264_2100757323540373_7818565397715615744_n.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

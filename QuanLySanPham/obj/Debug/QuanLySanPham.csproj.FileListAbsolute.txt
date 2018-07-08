@@ -25,3 +25,6 @@ C:\Users\Chu Tú\Desktop\QuanLySanPhm\winformbanhang\QuanLySanPham\obj\Debug\Qu
 C:\Users\Chu Tú\Desktop\QuanLySanPhm\winformbanhang\QuanLySanPham\obj\Debug\QuanLySanPham.Properties.Resources.resources
 C:\Users\Chu Tú\Desktop\QuanLySanPhm\winformbanhang\QuanLySanPham\obj\Debug\QuanLySanPham.csproj.GenerateResource.Cache
 C:\Users\Chu Tú\Desktop\QuanLySanPhm\winformbanhang\QuanLySanPham\obj\Debug\QuanLySanPham.FormControllers.Themsanpham.resources
+C:\Users\Chu Tú\Desktop\QuanLySanPhm\winformbanhang\QuanLySanPham\obj\Debug\QuanLySanPham.FormControllers.Sua.resources
+C:\Users\Chu Tú\Desktop\QuanLySanPhm\winformbanhang\QuanLySanPham\obj\Debug\QuanLySanPham.FormControllers.Themnguoidung.resources
+C:\Users\Chu Tú\Desktop\QuanLySanPhm\winformbanhang\QuanLySanPham\obj\Debug\QuanLySanPham.FormControllers.Xoasanpham.resources

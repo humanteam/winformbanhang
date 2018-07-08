@@ -27,12 +27,13 @@ namespace QuanLySanPham.FormControllers
 
         private void btn_themuser_Click(object sender, EventArgs e)
         {
-
+            Themnguoidung frmThemnguoidung = new Themnguoidung();
+            frmThemnguoidung.Show();
         }
 
         private void btn_thoat_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
 
         private void groupBox2_Enter(object sender, EventArgs e)
@@ -47,11 +48,25 @@ namespace QuanLySanPham.FormControllers
 
         private void btn_xoasp_Click(object sender, EventArgs e)
         {
-
+            Xoasanpham frmXoasanpham = new Xoasanpham();
+            frmXoasanpham.Show();
         }
 
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
         {
+
+        }
+
+        private void btn_themsp_Click(object sender, EventArgs e)
+        {
+            Themsanpham frmThemsanpham = new Themsanpham();
+            frmThemsanpham.Show();
+        }
+
+        private void btn_suasp_Click(object sender, EventArgs e)
+        {
+            Sua frmSua = new Sua();
+            frmSua.Show();
 
         }
     }

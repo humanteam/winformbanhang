@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtID = new System.Windows.Forms.TextBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -38,25 +38,25 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txtID
             // 
-            this.textBox1.AccessibleName = "";
-            this.textBox1.Location = new System.Drawing.Point(414, 87);
-            this.textBox1.MaxLength = 30;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(132, 20);
-            this.textBox1.TabIndex = 11;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox1.TextChanged += new System.EventHandler(this.edt_username_TextChanged);
+            this.txtID.AccessibleName = "";
+            this.txtID.Location = new System.Drawing.Point(414, 87);
+            this.txtID.MaxLength = 30;
+            this.txtID.Name = "txtID";
+            this.txtID.Size = new System.Drawing.Size(132, 20);
+            this.txtID.TabIndex = 11;
+            this.txtID.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtID.TextChanged += new System.EventHandler(this.edt_username_TextChanged);
             // 
-            // textBox2
+            // txtPassword
             // 
-            this.textBox2.Location = new System.Drawing.Point(414, 123);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.PasswordChar = '*';
-            this.textBox2.Size = new System.Drawing.Size(131, 20);
-            this.textBox2.TabIndex = 12;
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtPassword.Location = new System.Drawing.Point(414, 123);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.PasswordChar = '*';
+            this.txtPassword.Size = new System.Drawing.Size(131, 20);
+            this.txtPassword.TabIndex = 12;
+            this.txtPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label3
             // 
@@ -99,6 +99,7 @@
             this.button1.TabIndex = 16;
             this.button1.Text = "Hủy";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -119,8 +120,8 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtPassword);
+            this.Controls.Add(this.txtID);
             this.Name = "Themnguoidung";
             this.Text = "Themnguoidung";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -131,8 +132,8 @@
 
         #endregion
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtID;
+        private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button1;
