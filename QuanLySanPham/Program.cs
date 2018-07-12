@@ -16,7 +16,7 @@ namespace QuanLySanPham
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormControllers.Themsanpham());
+            Application.Run(new Login());
         }
     }
 }

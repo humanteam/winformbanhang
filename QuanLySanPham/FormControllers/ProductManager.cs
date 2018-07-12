@@ -17,6 +17,14 @@ namespace QuanLySanPham.FormControllers
             InitializeComponent();
             RequestAPI.RequestApiControllers.reponse_json(RequestAPI.APILink._Adress + RequestAPI.APILink._SanPham);
             listItem.View = View.Details;
+            if (AppController.username != null)
+            {
+                txt_tenuser.Text = AppController.username;
+                if (String.Compare(AppController.username, "adminstrator") != 0)
+                {
+                    btn_themuser.Visible = false;s
+                }
+            }
             foreach(Module.SanPham sp in Module.SanPhams.listsp)
             {
                 listItem.Items.Add(new ListViewItem(new string[] { sp.MaSP, sp.TenSP, sp.AnhSP, sp.ChiTietSP, sp.GiaSP,sp.TheLoai.TenTheLoai,sp.Account.UserName }));

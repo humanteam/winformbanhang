@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
             ""}, -1, System.Drawing.SystemColors.InactiveCaptionText, System.Drawing.Color.Empty, null);
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txt_tenuser = new System.Windows.Forms.Label();
@@ -68,9 +68,8 @@
             this.txt_tenuser.AutoSize = true;
             this.txt_tenuser.Location = new System.Drawing.Point(98, 35);
             this.txt_tenuser.Name = "txt_tenuser";
-            this.txt_tenuser.Size = new System.Drawing.Size(119, 13);
+            this.txt_tenuser.Size = new System.Drawing.Size(0, 13);
             this.txt_tenuser.TabIndex = 1;
-            this.txt_tenuser.Text = "Tên người dùng hiển thị";
             this.txt_tenuser.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label1
@@ -112,7 +111,7 @@
             this.listItem.HotTracking = true;
             this.listItem.HoverSelection = true;
             this.listItem.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem4});
+            listViewItem1});
             this.listItem.Location = new System.Drawing.Point(2, 19);
             this.listItem.Name = "listItem";
             this.listItem.Size = new System.Drawing.Size(686, 281);

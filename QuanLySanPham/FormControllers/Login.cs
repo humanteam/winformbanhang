@@ -52,6 +52,7 @@ namespace QuanLySanPham
            bool _isCheck= RequestAPI.RequestApiControllers._check_request(postData, RequestAPI.APILink._Adress + RequestAPI.APILink._Login);
             if (_isCheck)
             {
+                AppController.username = edt_username.Text;
                  FormControllers.ProductManager manager = new FormControllers.ProductManager();
                  manager.Show();
                  this.Visible = false;
