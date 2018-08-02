@@ -48,6 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppController.cs" />
     <Compile Include="FormControllers\Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +98,8 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormControllers\ProductManager.resx">
       <DependentUpon>ProductManager.cs</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ProductManager1.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="FormControllers\Sua.resx">
       <DependentUpon>Sua.cs</DependentUpon>

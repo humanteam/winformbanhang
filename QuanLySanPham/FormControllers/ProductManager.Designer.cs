@@ -68,9 +68,8 @@
             this.txt_tenuser.AutoSize = true;
             this.txt_tenuser.Location = new System.Drawing.Point(98, 35);
             this.txt_tenuser.Name = "txt_tenuser";
-            this.txt_tenuser.Size = new System.Drawing.Size(119, 13);
+            this.txt_tenuser.Size = new System.Drawing.Size(0, 13);
             this.txt_tenuser.TabIndex = 1;
-            this.txt_tenuser.Text = "Tên người dùng hiển thị";
             this.txt_tenuser.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label1
@@ -90,11 +89,14 @@
             this.groupBox2.Size = new System.Drawing.Size(688, 300);
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "List các sản phẩm được hiển thị trong đây";
+            this.groupBox2.Text = "Danh sách sản phẩm";
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // listItem
             // 
+            this.listItem.Activation = System.Windows.Forms.ItemActivation.OneClick;
+            this.listItem.AllowColumnReorder = true;
+            this.listItem.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.listItem.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.clMaSP,
             this.clTenSP,
@@ -103,6 +105,11 @@
             this.clGia,
             this.clTenTheLoai,
             this.clTenNguoiDang});
+            this.listItem.GridLines = true;
+            this.listItem.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
+            this.listItem.HideSelection = false;
+            this.listItem.HotTracking = true;
+            this.listItem.HoverSelection = true;
             this.listItem.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
             listViewItem2});
             this.listItem.Location = new System.Drawing.Point(2, 19);
@@ -116,38 +123,40 @@
             // clMaSP
             // 
             this.clMaSP.Text = "Mã Sản Phẩm";
-            this.clMaSP.Width = 20;
+            this.clMaSP.Width = 30;
             // 
             // clTenSP
             // 
             this.clTenSP.Text = "Tên Sản Phẩm";
             this.clTenSP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.clTenSP.Width = 120;
             // 
             // clHinhAnh
             // 
             this.clHinhAnh.Text = "Link Hình Ảnh";
             this.clHinhAnh.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.clHinhAnh.Width = 120;
             // 
             // clChiTiet
             // 
             this.clChiTiet.Text = "Chi Tiết Sản Phẩm";
             this.clChiTiet.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.clChiTiet.Width = 120;
             // 
             // clGia
             // 
             this.clGia.Text = "Giá";
-            this.clGia.Width = 30;
             // 
             // clTenTheLoai
             // 
             this.clTenTheLoai.Text = "Tên Thể Loại";
             this.clTenTheLoai.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.clTenTheLoai.Width = 120;
             // 
             // clTenNguoiDang
             // 
             this.clTenNguoiDang.Text = "Tên Người Đăng";
             this.clTenNguoiDang.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.clTenNguoiDang.Width = 30;
             // 
             // btn_thoat
             // 
@@ -195,7 +204,7 @@
             this.btn_suasp.TabIndex = 1;
             this.btn_suasp.Text = "Sửa sản phẩm";
             this.btn_suasp.UseVisualStyleBackColor = true;
-            this.btn_suasp.Click += new System.EventHandler(this.btn_suasp_Click);
+          
             // 
             // btn_themsp
             // 
@@ -221,8 +230,12 @@
             this.Controls.Add(this.btn_xoasp);
             this.Controls.Add(this.btn_suasp);
             this.Controls.Add(this.btn_themsp);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "ProductManager";
-            this.Text = "ProductManager";
+            this.Text = "Quản Lý Sản Phẩm";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ProductManager_FormClosing);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.ProductManager_FormClosed);
             this.Load += new System.EventHandler(this.ProductManager_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

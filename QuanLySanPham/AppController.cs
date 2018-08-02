@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace QuanLySanPham.Module
+namespace QuanLySanPham
 {
-    class TheLoai
+    class AppController
     {
-       public string TenTheLoai { get; set; }
+        public static String username;
     }
 }
