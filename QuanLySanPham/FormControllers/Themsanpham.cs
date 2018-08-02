@@ -29,7 +29,6 @@ namespace QuanLySanPham.FormControllers
 
         private void xacnhan_Click(object sender, EventArgs e)
         {
-            int user_account = 1;
             int matheloai = cbx_theloai.SelectedIndex + 1;
            // DialogResult rest;
             if (edt_tensp.Text.Length <= 0)
@@ -73,7 +72,7 @@ namespace QuanLySanPham.FormControllers
             }
             catch(Exception ex)
             {
-
+                
             }
         }
 

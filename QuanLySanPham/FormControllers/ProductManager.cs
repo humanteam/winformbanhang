@@ -22,7 +22,7 @@ namespace QuanLySanPham.FormControllers
                 txt_tenuser.Text = AppController.username;
                 if (String.Compare(AppController.username, "adminstrator") != 0)
                 {
-                    btn_themuser.Visible = false;s
+                    btn_themuser.Visible = false;
                 }
             }
             foreach(Module.SanPham sp in Module.SanPhams.listsp)
