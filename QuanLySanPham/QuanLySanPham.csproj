@@ -92,6 +92,11 @@
     <Compile Include="FormControllers\ProductManager.Designer.cs">
       <DependentUpon>ProductManager.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormControllers\ProductManager1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProductManager.resx</DependentUpon>
+    </Compile>
     <Compile Include="FormControllers\Sua.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -216,6 +221,36 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Actions-user-group-new-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Actions-user-group-new-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Actions-edit-clear-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\name-card-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\name-card-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search-Images-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coin-us-dollar-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Status-dialog-information-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\table-select-row-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Actions-view-list-details-icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
