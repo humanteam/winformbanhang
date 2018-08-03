@@ -195,6 +195,7 @@
             this.Name = "Themsanpham";
             this.Text = "Themsanpham";
             this.Load += new System.EventHandler(this.Themsanpham_Load);
+         
             this.ResumeLayout(false);
             this.PerformLayout();
 

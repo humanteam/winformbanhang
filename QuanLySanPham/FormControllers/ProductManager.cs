@@ -34,7 +34,8 @@ namespace QuanLySanPham.FormControllers
 
         private void btn_themuser_Click(object sender, EventArgs e)
         {
-
+            Themnguoidung frmThemnguoidung = new Themnguoidung();
+            frmThemnguoidung.Show();
         }
 
         private void btn_thoat_Click(object sender, EventArgs e)
@@ -58,7 +59,8 @@ namespace QuanLySanPham.FormControllers
 
         private void btn_xoasp_Click(object sender, EventArgs e)
         {
-
+            Xoasanpham frmXoasanpham = new Xoasanpham();
+            frmXoasanpham.Show();
         }
 
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
@@ -95,6 +97,11 @@ namespace QuanLySanPham.FormControllers
         {
             Themsanpham themsanpham = new Themsanpham();
             themsanpham.Show();
+        }
+
+        private void btn_suasp_Click(object sender, EventArgs e) { 
+            Sua suasanpham = new Sua();
+            suasanpham.Show();
         }
     }
 }

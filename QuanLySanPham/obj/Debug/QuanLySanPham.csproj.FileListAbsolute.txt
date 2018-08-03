@@ -25,6 +25,11 @@ C:\Users\Chu Tú\Desktop\QuanLySanPhm\winformbanhang\QuanLySanPham\obj\Debug\Qu
 C:\Users\Chu Tú\Desktop\QuanLySanPhm\winformbanhang\QuanLySanPham\obj\Debug\QuanLySanPham.Properties.Resources.resources
 C:\Users\Chu Tú\Desktop\QuanLySanPhm\winformbanhang\QuanLySanPham\obj\Debug\QuanLySanPham.csproj.GenerateResource.Cache
 C:\Users\Chu Tú\Desktop\QuanLySanPhm\winformbanhang\QuanLySanPham\obj\Debug\QuanLySanPham.FormControllers.Themsanpham.resources
+<<<<<<< HEAD
+C:\Users\Chu Tú\Desktop\QuanLySanPhm\winformbanhang\QuanLySanPham\obj\Debug\QuanLySanPham.FormControllers.Sua.resources
+C:\Users\Chu Tú\Desktop\QuanLySanPhm\winformbanhang\QuanLySanPham\obj\Debug\QuanLySanPham.FormControllers.Themnguoidung.resources
+C:\Users\Chu Tú\Desktop\QuanLySanPhm\winformbanhang\QuanLySanPham\obj\Debug\QuanLySanPham.FormControllers.Xoasanpham.resources
+=======
 E:\winformbanhang\QuanLySanPham\obj\Debug\QuanLySanPham.csprojAssemblyReference.cache
 E:\winformbanhang\QuanLySanPham\obj\Debug\QuanLySanPham.Login.resources
 E:\winformbanhang\QuanLySanPham\obj\Debug\QuanLySanPham.FormControllers.ProductManager.resources
@@ -41,3 +46,11 @@ E:\winformbanhang\QuanLySanPham\bin\Debug\Newtonsoft.Json.dll
 E:\winformbanhang\QuanLySanPham\bin\Debug\Newtonsoft.Json.xml
 E:\winformbanhang\QuanLySanPham\obj\Debug\QuanLySanPham.csproj.CopyComplete
 C:\Users\ThanhCong\Desktop\Project\QuanLySanPham\QuanLySanPham\obj\Debug\QuanLySanPham.FormControllers.Themsanpham.resources
+>>>>>>> 65f75bc001abd25c5de01bee58823383d979ab55
+C:\Users\ThanhCong\Desktop\Project\QuanLySanPham\QuanLySanPham\obj\Debug\QuanLySanPham.FormControllers.Sua.resources
+C:\Users\ThanhCong\Desktop\Project\QuanLySanPham\QuanLySanPham\obj\Debug\QuanLySanPham.FormControllers.Themnguoidung.resources
+C:\Users\ThanhCong\Desktop\Project\QuanLySanPham\QuanLySanPham\obj\Debug\QuanLySanPham.FormControllers.Xoasanpham.resources
+C:\Users\ThanhCong\Desktop\Project\QuanLySanPham\QuanLySanPham\bin\Debug\QuanLySanPham.exe.manifest
+C:\Users\ThanhCong\Desktop\Project\QuanLySanPham\QuanLySanPham\bin\Debug\QuanLySanPham.application
+C:\Users\ThanhCong\Desktop\Project\QuanLySanPham\QuanLySanPham\obj\Debug\QuanLySanPham.exe.manifest
+C:\Users\ThanhCong\Desktop\Project\QuanLySanPham\QuanLySanPham\obj\Debug\QuanLySanPham.application

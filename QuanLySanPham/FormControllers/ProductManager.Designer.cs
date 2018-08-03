@@ -204,6 +204,7 @@
             this.btn_suasp.TabIndex = 1;
             this.btn_suasp.Text = "Sửa sản phẩm";
             this.btn_suasp.UseVisualStyleBackColor = true;
+            this.btn_suasp.Click += new System.EventHandler(this.btn_suasp_Click);
             // 
             // btn_themsp
             // 
