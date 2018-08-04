@@ -148,7 +148,7 @@
             this.xacnhan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.xacnhan.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.xacnhan.Location = new System.Drawing.Point(390, 371);
-            this.xacnhan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.xacnhan.Margin = new System.Windows.Forms.Padding(4);
             this.xacnhan.Name = "xacnhan";
             this.xacnhan.Size = new System.Drawing.Size(129, 28);
             this.xacnhan.TabIndex = 7;
@@ -163,7 +163,7 @@
             this.huybo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.huybo.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.huybo.Location = new System.Drawing.Point(228, 371);
-            this.huybo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.huybo.Margin = new System.Windows.Forms.Padding(4);
             this.huybo.Name = "huybo";
             this.huybo.Size = new System.Drawing.Size(119, 28);
             this.huybo.TabIndex = 8;
