@@ -52,10 +52,11 @@ namespace QuanLySanPham
            bool _isCheck= RequestAPI.RequestApiControllers._check_request(postData, RequestAPI.APILink._Adress + RequestAPI.APILink._Login);
             if (_isCheck)
             {
-                FormControllers.ProductManager manager = new FormControllers.ProductManager();
-                manager.Show();
-                this.Visible = false;
-                this.Hide();
+                AppController.username = edt_username.Text;
+                 FormControllers.ProductManager manager = new FormControllers.ProductManager();
+                 manager.Show();
+                 this.Visible = false;
+                 this.Hide();
             }
             else
             {
@@ -64,7 +65,11 @@ namespace QuanLySanPham
         }
         private void btn_exit_Click(object sender, EventArgs e)
         {
-            this.Close();
+            DialogResult result = MessageBox.Show("Thoát chương trình", "", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            if (result == DialogResult.OK)
+            {
+                Environment.Exit(0);
+            }
         }
 
         private void chk_remeber_login_CheckedChanged(object sender, EventArgs e)

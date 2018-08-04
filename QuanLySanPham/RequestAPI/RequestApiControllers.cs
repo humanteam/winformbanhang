@@ -68,7 +68,6 @@ namespace QuanLySanPham.RequestAPI
         private static void parJson(string json)
         {
             JArray arr = JArray.Parse(json);
-            int i = 0;
             foreach(JObject obj in arr)
             {
                 Module.SanPham sp = JsonConvert.DeserializeObject<Module.SanPham>(obj.ToString());

@@ -11,6 +11,22 @@
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\ThanhCong\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -18,7 +34,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DefineConstants>TRACE;DEBUG;Quan ly ban hang</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
@@ -30,6 +46,21 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>QuanLySanPham.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>3310FBFF50EE066177C58ADBEF8922CF59C2DE78</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>QuanLySanPham_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
@@ -48,6 +79,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppController.cs" />
     <Compile Include="FormControllers\Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,11 +92,34 @@
     <Compile Include="FormControllers\ProductManager.Designer.cs">
       <DependentUpon>ProductManager.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormControllers\ProductManager1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProductManager.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FormControllers\Sua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormControllers\Sua.Designer.cs">
+      <DependentUpon>Sua.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormControllers\Themnguoidung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormControllers\Themnguoidung.Designer.cs">
+      <DependentUpon>Themnguoidung.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormControllers\Themsanpham.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormControllers\Themsanpham.Designer.cs">
       <DependentUpon>Themsanpham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormControllers\Xoasanpham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormControllers\Xoasanpham.Designer.cs">
+      <DependentUpon>Xoasanpham.cs</DependentUpon>
     </Compile>
     <Compile Include="Module\Account.cs" />
     <Compile Include="Module\SanPham.cs" />
@@ -82,8 +137,17 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>ProductManager1.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormControllers\Sua.resx">
+      <DependentUpon>Sua.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormControllers\Themnguoidung.resx">
+      <DependentUpon>Themnguoidung.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormControllers\Themsanpham.resx">
       <DependentUpon>Themsanpham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormControllers\Xoasanpham.resx">
+      <DependentUpon>Xoasanpham.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -113,6 +177,7 @@
     <Folder Include="Image\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="QuanLySanPham_TemporaryKey.pfx" />
     <None Include="Resources\Accept-icon.png" />
   </ItemGroup>
   <ItemGroup>
@@ -132,6 +197,60 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\eraser-minus-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-user-group-woman-man.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\36177139_2100754413540664_5354926853414977536_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\36252562_2100756093540496_7804615601636245504_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\36231264_2100757323540373_7818565397715615744_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Actions-user-group-new-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Actions-user-group-new-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Actions-edit-clear-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\name-card-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\name-card-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search-Images-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coin-us-dollar-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Status-dialog-information-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\table-select-row-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Actions-view-list-details-icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -8,7 +8,6 @@ namespace QuanLySanPham.Module
 {
     class Account
     {
-        public string MaUserName { get; set; }
         public string UserName { get; set; }
     }
 }
