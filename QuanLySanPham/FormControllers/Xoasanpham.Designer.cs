@@ -51,6 +51,7 @@
             this.txtMaSP.Name = "txtMaSP";
             this.txtMaSP.Size = new System.Drawing.Size(170, 20);
             this.txtMaSP.TabIndex = 29;
+            this.txtMaSP.TextChanged += new System.EventHandler(this.txtMaSP_TextChanged);
             // 
             // button1
             // 

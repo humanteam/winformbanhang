@@ -125,6 +125,7 @@
             this.Controls.Add(this.edt_UserID);
             this.Name = "Themnguoidung";
             this.Text = "Themnguoidung";
+            this.Load += new System.EventHandler(this.Themnguoidung_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

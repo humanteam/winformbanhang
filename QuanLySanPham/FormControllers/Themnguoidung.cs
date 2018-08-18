@@ -48,5 +48,10 @@ namespace QuanLySanPham.FormControllers
             }
 
         }
+
+        private void Themnguoidung_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

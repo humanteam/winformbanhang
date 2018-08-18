@@ -21,5 +21,10 @@ namespace QuanLySanPham.FormControllers
         {
             this.Close();
         }
+
+        private void txtMaSP_TextChanged(object sender, EventArgs e)
+        {
+           
+        }
     }
 }

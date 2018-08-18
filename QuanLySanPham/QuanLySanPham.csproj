@@ -92,11 +92,6 @@
     <Compile Include="FormControllers\ProductManager.Designer.cs">
       <DependentUpon>ProductManager.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormControllers\ProductManager1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ProductManager.resx</DependentUpon>
-    </Compile>
     <Compile Include="FormControllers\Sua.cs">
       <SubType>Form</SubType>
     </Compile>

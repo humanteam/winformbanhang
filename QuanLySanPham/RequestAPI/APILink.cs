@@ -8,7 +8,7 @@ namespace QuanLySanPham.RequestAPI
 {
     class APILink
     {
-        public static string _Adress = "http://192.168.0.102";
+        public static string _Adress = "http://192.168.2.25";
         public static string _Login = "/WebServices/AuthenCation.asmx/authencation";
         public static string _Insert = "/WebServices/AuthenCation.asmx/insert_sanpham";
         public static string _Insert_User = "/WebServices/AuthenCation.asmx/insert_user";
