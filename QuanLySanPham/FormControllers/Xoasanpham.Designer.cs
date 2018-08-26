@@ -30,7 +30,7 @@
         {
             this.label3 = new System.Windows.Forms.Label();
             this.txtMaSP = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btXoa = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -53,14 +53,14 @@
             this.txtMaSP.TabIndex = 29;
             this.txtMaSP.TextChanged += new System.EventHandler(this.txtMaSP_TextChanged);
             // 
-            // button1
+            // btXoa
             // 
-            this.button1.Location = new System.Drawing.Point(191, 89);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(77, 23);
-            this.button1.TabIndex = 33;
-            this.button1.Text = "Xóa";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btXoa.Location = new System.Drawing.Point(191, 89);
+            this.btXoa.Name = "btXoa";
+            this.btXoa.Size = new System.Drawing.Size(77, 23);
+            this.btXoa.TabIndex = 33;
+            this.btXoa.Text = "Xóa";
+            this.btXoa.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
@@ -88,7 +88,7 @@
             this.ClientSize = new System.Drawing.Size(475, 159);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btXoa);
             this.Controls.Add(this.txtMaSP);
             this.Controls.Add(this.label3);
             this.Name = "Xoasanpham";
@@ -102,7 +102,7 @@
         #endregion
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtMaSP;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btXoa;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
