@@ -29,7 +29,7 @@ namespace QuanLySanPham.FormControllers
 
         private void button2_Click(object sender, EventArgs e)
         {
-           // string postData = "username=" + edt_username.Text + "&password=" + edt_password.Text;
+            string postData = "username=" + edt_UserID.Text + "&password=" + edt_password.Text;
             DialogResult result;
             if (edt_UserID.Text.Length <= 0)
             {
@@ -41,10 +41,12 @@ namespace QuanLySanPham.FormControllers
             if (result_request == false)
             {
                 //Insert that bai
+                DialogResult dalogresult = MessageBox.Show("Thêm người dùng thất bại", "", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
             }
             else
             {
                 //Thong bao them tai khoan thanh cong
+                DialogResult dialogresult = MessageBox.Show("Thêm người dùng thành công", "", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
             }
 
         }

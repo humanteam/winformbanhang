@@ -243,6 +243,16 @@ namespace QuanLySanPham.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap QR_Code_icon {
+            get {
+                object obj = ResourceManager.GetObject("QR-Code-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Search_Images_icon {
             get {
                 object obj = ResourceManager.GetObject("Search-Images-icon", resourceCulture);

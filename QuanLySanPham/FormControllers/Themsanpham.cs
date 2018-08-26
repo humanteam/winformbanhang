@@ -106,5 +106,10 @@ namespace QuanLySanPham.FormControllers
         {
 
         }
+
+        private void edt_tensp_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
