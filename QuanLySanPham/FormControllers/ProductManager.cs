@@ -98,5 +98,10 @@ namespace QuanLySanPham.FormControllers
             Themsanpham themsanpham = new Themsanpham();
             themsanpham.Show();
         }
+
+        private void btn_suasp_Click(object sender, EventArgs e)
+        {
+          
+        }
     }
 }

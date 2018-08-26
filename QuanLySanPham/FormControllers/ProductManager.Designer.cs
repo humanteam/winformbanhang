@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
             ""}, -1, System.Drawing.SystemColors.InactiveCaptionText, System.Drawing.Color.Empty, null);
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txt_tenuser = new System.Windows.Forms.Label();
@@ -111,7 +111,7 @@
             this.listItem.HotTracking = true;
             this.listItem.HoverSelection = true;
             this.listItem.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem2});
+            listViewItem1});
             this.listItem.Location = new System.Drawing.Point(2, 19);
             this.listItem.Name = "listItem";
             this.listItem.Size = new System.Drawing.Size(686, 281);
@@ -204,7 +204,7 @@
             this.btn_suasp.TabIndex = 1;
             this.btn_suasp.Text = "Sửa sản phẩm";
             this.btn_suasp.UseVisualStyleBackColor = true;
-          
+            this.btn_suasp.Click += new System.EventHandler(this.btn_suasp_Click);
             // 
             // btn_themsp
             // 
